@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+<defs>
+<linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#140e28"/><stop offset="1" stop-color="#0b0a12"/></linearGradient>
+<linearGradient id="morado" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a855f7" stop-opacity="0.55"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></linearGradient>
+<linearGradient id="rosa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ec4899" stop-opacity="0.5"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="640" height="360" fill="url(#fondo)"/>
+<polygon points="140,0 170,0 310,360 40,360" fill="url(#morado)"/>
+<polygon points="470,0 500,0 600,360 330,360" fill="url(#rosa)"/>
+<polygon points="305,0 335,0 440,360 200,360" fill="url(#morado)" opacity="0.6"/>
+<circle cx="155" cy="0" r="10" fill="#e9d5ff"/>
+<circle cx="320" cy="0" r="10" fill="#e9d5ff"/>
+<circle cx="485" cy="0" r="10" fill="#fbcfe8"/>
+<g fill="#05040a">
+<circle cx="-10" cy="329.9" r="16.7"/>
+<ellipse cx="-10" cy="366.7" rx="30.1" ry="26.8"/>
+<circle cx="33.2" cy="332.8" r="17.4"/>
+<ellipse cx="33.2" cy="371.1" rx="31.4" ry="27.9"/>
+<line x1="50.6" y1="350.2" x2="66.4" y2="281.5" stroke="#05040a" stroke-width="9" stroke-linecap="round"/>
+<circle cx="63.9" cy="323.9" r="13.9"/>
+<ellipse cx="63.9" cy="354.6" rx="25.1" ry="22.3"/>
+<circle cx="99.3" cy="322" r="13.6"/>
+<ellipse cx="99.3" cy="351.9" rx="24.5" ry="21.8"/>
+<circle cx="135" cy="331.9" r="14.1"/>
+<ellipse cx="135" cy="362.9" rx="25.4" ry="22.5"/>
+<circle cx="175.6" cy="327.9" r="13.4"/>
+<ellipse cx="175.6" cy="357.4" rx="24.2" ry="21.5"/>
+<circle cx="207.5" cy="318.1" r="18.8"/>
+<ellipse cx="207.5" cy="359.5" rx="33.9" ry="30.1"/>
+<circle cx="250.9" cy="320.7" r="14"/>
+<ellipse cx="250.9" cy="351.5" rx="25.2" ry="22.4"/>
+<line x1="236.9" y1="334.7" x2="223.5" y2="258.7" stroke="#05040a" stroke-width="9" stroke-linecap="round"/>
+<circle cx="283.8" cy="329.1" r="18.6"/>
+<ellipse cx="283.8" cy="370.1" rx="33.6" ry="29.8"/>
+<circle cx="326.3" cy="323.8" r="14.8"/>
+<ellipse cx="326.3" cy="356.3" rx="26.6" ry="23.7"/>
+<line x1="311.5" y1="338.6" x2="300.9" y2="270.5" stroke="#05040a" stroke-width="9" stroke-linecap="round"/>
+<circle cx="367.7" cy="327.5" r="16.5"/>
+<ellipse cx="367.7" cy="363.9" rx="29.7" ry="26.4"/>
+<circle cx="398.7" cy="322.9" r="15.1"/>
+<ellipse cx="398.7" cy="356.2" rx="27.2" ry="24.2"/>
+<circle cx="431.3" cy="320.8" r="15.8"/>
+<ellipse cx="431.3" cy="355.7" rx="28.5" ry="25.3"/>
+<line x1="415.4" y1="336.7" x2="397.9" y2="266.9" stroke="#05040a" stroke-width="9" stroke-linecap="round"/>
+<circle cx="466.9" cy="324.7" r="16.3"/>
+<ellipse cx="466.9" cy="360.5" rx="29.3" ry="26.1"/>
+<circle cx="508.7" cy="329.3" r="15.7"/>
+<ellipse cx="508.7" cy="363.9" rx="28.3" ry="25.1"/>
+<circle cx="552.1" cy="321.9" r="13.7"/>
+<ellipse cx="552.1" cy="352.1" rx="24.7" ry="21.9"/>
+<circle cx="588.5" cy="332.3" r="16.1"/>
+<ellipse cx="588.5" cy="367.6" rx="28.9" ry="25.7"/>
+<line x1="604.6" y1="348.4" x2="613.7" y2="268.6" stroke="#05040a" stroke-width="9" stroke-linecap="round"/>
+<circle cx="629.7" cy="318.6" r="18.2"/>
+<ellipse cx="629.7" cy="358.5" rx="32.7" ry="29.1"/>
+</g>
+<circle cx="320" cy="165" r="40" fill="#fff" fill-opacity="0.12" stroke="#fff" stroke-opacity="0.6" stroke-width="2"/>
+<polygon points="307,145 307,185 343,165" fill="#fff"/>
+</svg>
