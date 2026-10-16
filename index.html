@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Sergio Gustavo Acosta Esquivel">
-    <meta name="description" content="Página dedicada a mis artistas favoritos: Enjambre, Zoé e Imagine Dragons.">
-    <meta name="keywords" content="Enjambre, Zoé, Imagine Dragons, música, rock alternativo">
-    <title>Frecuencias | Mi música favorita</title>
+    <meta name="description" content="Página sobre mis bandas favoritas: Enjambre, Zoé e Imagine Dragons.">
+    <meta name="keywords" content="Enjambre, Zoé, Imagine Dragons, música, rock">
+    <title>Mi Música Favorita</title>
     <link rel="icon" href="img/icono.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,10 @@
 <body>
     <header class="encabezado">
         <nav class="nav">
-            <a href="#inicio" class="logo">Frecuencias</a>
+            <div class="marca">
+                <a href="#inicio" class="logo">Mi Música</a>
+                <p class="datos-alumno">Sergio Gustavo Acosta Esquivel · <span>No. de control: 23480879</span></p>
+            </div>
             <ul class="nav-enlaces">
                 <li><a href="#artistas">Artistas</a></li>
                 <li><a href="#discografia">Discografía</a></li>
@@ -28,27 +31,21 @@
 
     <main>
         <section id="inicio" class="portada">
-            <div class="ecualizador" aria-hidden="true">
-                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <p class="etiqueta">Mi playlist personal</p>
-            <h1>La música que <span class="degradado">me mueve</span></h1>
-            <p class="intro">Hay canciones que se quedan contigo para siempre. Esta página reúne a los tres artistas que más escucho: <strong>Enjambre</strong>, <strong>Zoé</strong> e <strong>Imagine Dragons</strong>. Dos bandas mexicanas que suenan a <em>nostalgia y cosmos</em>, y una banda de Las Vegas que suena a <em>estadio lleno</em>.</p>
-            <a href="#artistas" class="boton">Conoce a los artistas</a>
+            <h1>Mi música <span class="degradado">favorita</span></h1>
+            <p class="intro">Hola, soy Sergio. Hice esta página para compartir la música que más escucho. Mis bandas favoritas son <strong>Enjambre</strong>, <strong>Zoé</strong> e <strong>Imagine Dragons</strong>.</p>
+            <p class="intro">De Enjambre me gustan canciones como <em>Último Tema</em> y <em>Visita</em>, de Zoé me gustan <em>Soñé</em> y <em>Labios rotos</em>, y de Imagine Dragons <em>Believer</em> y <em>Radioactive</em>.</p>
+            <a href="#artistas" class="boton">Ver mis bandas</a>
         </section>
 
         <section id="artistas" class="seccion">
-            <div class="titulo-seccion">
-                <p class="etiqueta">01</p>
-                <h2>Mis artistas</h2>
-            </div>
+            <h2>Mis bandas</h2>
             <div class="tarjetas">
                 <article class="tarjeta tarjeta-enjambre">
                     <img src="img/enjambre.jpg" alt="Fotografía de la banda Enjambre" width="400" height="300">
                     <div class="tarjeta-cuerpo">
-                        <p class="origen">Fresnillo, Zacatecas · Rock indie</p>
+                        <p class="origen">Fresnillo, Zacatecas · Rock</p>
                         <h3>Enjambre</h3>
-                        <p>Los hermanos Navejas formaron la banda en California en 2001. Su sonido mezcla el rock con la elegancia de los boleros y las baladas de los años sesenta y setenta. Canciones como <em>«Visita»</em> y <em>«Dulce soledad»</em> son puro sentimiento.</p>
+                        <p>Es una banda de rock formada por los hermanos Navejas. Me gusta porque sus canciones mezclan el rock con un estilo romántico, como de boleros antiguos. Mis favoritas son <em>«Último Tema»</em>, <em>«Visita»</em> y <em>«Dulce soledad»</em>.</p>
                         <a href="https://es.wikipedia.org/wiki/Enjambre_(banda)" target="_blank" rel="noopener">Leer más sobre Enjambre →</a>
                     </div>
                 </article>
@@ -58,7 +55,7 @@
                     <div class="tarjeta-cuerpo">
                         <p class="origen">Cuernavaca, Morelos · Rock alternativo</p>
                         <h3>Zoé</h3>
-                        <p>Liderada por León Larregui, Zoé es una de las bandas más importantes del rock en español. Su música es psicodélica y espacial, llena de lunas y galaxias. En 2019 su álbum <em>Aztlán</em> ganó un premio Grammy.</p>
+                        <p>Es una banda de rock alternativo y su vocalista es León Larregui. Me gusta su sonido psicodélico, que se siente como estar en el espacio. Mis favoritas son <em>«Soñé»</em> y <em>«Labios rotos»</em>.</p>
                         <a href="https://es.wikipedia.org/wiki/Zoe_(banda)" target="_blank" rel="noopener">Leer más sobre Zoé →</a>
                     </div>
                 </article>
@@ -68,7 +65,7 @@
                     <div class="tarjeta-cuerpo">
                         <p class="origen">Las Vegas, Nevada · Pop rock</p>
                         <h3>Imagine Dragons</h3>
-                        <p>Encabezada por Dan Reynolds, la banda se formó en 2008 y conquistó al mundo con <em>Night Visions</em> (2012). Himnos como <em>«Radioactive»</em> y <em>«Believer»</em> están hechos para cantarse a todo pulmón.</p>
+                        <p>Es una banda de pop rock y su vocalista es Dan Reynolds. Me gusta porque sus canciones tienen mucha energía. Mis favoritas son <em>«Believer»</em> y <em>«Radioactive»</em>.</p>
                         <a href="https://es.wikipedia.org/wiki/Imagine_Dragons" target="_blank" rel="noopener">Leer más sobre Imagine Dragons →</a>
                     </div>
                 </article>
@@ -76,17 +73,14 @@
         </section>
 
         <section id="discografia" class="seccion">
-            <div class="titulo-seccion">
-                <p class="etiqueta">02</p>
-                <h2>Discografía esencial</h2>
-                <p class="seccion-intro">Algunos de los discos que más he escuchado y la canción que siempre repito de cada uno.</p>
-            </div>
+            <h2>Discografía</h2>
+            <p class="seccion-intro">Algunos discos que me gustan y mi canción favorita de cada uno.</p>
             <div class="tabla-contenedor">
                 <table>
-                    <caption>Discos favoritos por artista</caption>
+                    <caption>Discos favoritos por banda</caption>
                     <thead>
                         <tr>
-                            <th scope="col">Artista</th>
+                            <th scope="col">Banda</th>
                             <th scope="col">Álbum</th>
                             <th scope="col">Año</th>
                             <th scope="col">Canción favorita</th>
@@ -100,9 +94,9 @@
                             <td class="cancion">Visita</td>
                         </tr>
                         <tr>
-                            <td>Imperfecto extraño</td>
-                            <td class="anio">2017</td>
-                            <td class="cancion">Vida en el espejo</td>
+                            <td>Daños Luz</td>
+                            <td class="anio">2026</td>
+                            <td class="cancion">Angustias</td>
                         </tr>
                         <tr>
                             <th scope="row" rowspan="2" class="artista-zoe">Zoé</th>
@@ -129,7 +123,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="4">6 discos · 3 artistas · incontables repeticiones</td>
+                            <td colspan="4">Total: 6 discos</td>
                         </tr>
                     </tfoot>
                 </table>
@@ -137,14 +131,11 @@
         </section>
 
         <section id="escuchar" class="seccion">
-            <div class="titulo-seccion">
-                <p class="etiqueta">03</p>
-                <h2>Escuchar y ver</h2>
-            </div>
+            <h2>Escuchar y ver</h2>
             <div class="multimedia">
                 <div class="medio">
-                    <h3>Canción del día</h3>
-                    <p>La canción que más he repetido esta semana.</p>
+                    <h3>Una canción que me gusta</h3>
+                    <p>Otra de las canciones que más escucho.</p>
                     <div class="vinilo" aria-hidden="true"></div>
                     <audio controls preload="metadata">
                         <source src="media/cancion.mp3" type="audio/mpeg">
@@ -153,8 +144,8 @@
                 </div>
 
                 <div class="medio">
-                    <h3>En vivo</h3>
-                    <p>Un fragmento de concierto que no me canso de ver.</p>
+                    <h3>Mi canción favorita</h3>
+                    <p><em>«Último Tema»</em> de Enjambre. Es mi canción favorita de la banda y la que más escucho.</p>
                     <video controls preload="metadata" poster="img/poster-video.svg">
                         <source src="media/video.mp4" type="video/mp4">
                         Tu navegador no soporta la etiqueta de video.
@@ -163,7 +154,7 @@
 
                 <div class="medio medio-ancho">
                     <h3>Imagine Dragons · Believer</h3>
-                    <p>Video oficial desde YouTube, insertado con un iframe.</p>
+                    <p>El video oficial de <em>Believer</em> desde YouTube.</p>
                     <div class="video-marco">
                         <iframe src="https://www.youtube.com/embed/7wtfhZwyrcc" title="Imagine Dragons - Believer (video oficial)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
                     </div>
@@ -172,11 +163,8 @@
         </section>
 
         <section id="encuesta" class="seccion">
-            <div class="titulo-seccion">
-                <p class="etiqueta">04</p>
-                <h2>Encuesta musical</h2>
-                <p class="seccion-intro">¿Compartimos gustos? Cuéntame qué escuchas.</p>
-            </div>
+            <h2>Encuesta musical</h2>
+            <p class="seccion-intro">¿Te gusta la misma música que a mí? Contesta esta encuesta.</p>
             <form class="formulario" action="#encuesta" method="get">
                 <div class="campo">
                     <label for="nombre">Tu nombre</label>
@@ -184,7 +172,7 @@
                 </div>
 
                 <fieldset class="campo">
-                    <legend>¿Cuál es tu artista favorito?</legend>
+                    <legend>¿Cuál es tu banda favorita?</legend>
                     <div class="opciones">
                         <label class="opcion"><input type="radio" name="artista" value="enjambre" checked> Enjambre</label>
                         <label class="opcion"><input type="radio" name="artista" value="zoe"> Zoé</label>
@@ -195,11 +183,11 @@
                 <fieldset class="campo">
                     <legend>¿Qué géneros escuchas?</legend>
                     <div class="opciones">
+                        <label class="opcion"><input type="checkbox" name="genero" value="rock"> Rock</label>
                         <label class="opcion"><input type="checkbox" name="genero" value="rock-alternativo"> Rock alternativo</label>
-                        <label class="opcion"><input type="checkbox" name="genero" value="indie"> Indie</label>
                         <label class="opcion"><input type="checkbox" name="genero" value="pop-rock"> Pop rock</label>
-                        <label class="opcion"><input type="checkbox" name="genero" value="psicodelia"> Psicodelia</label>
-                        <label class="opcion"><input type="checkbox" name="genero" value="electronica"> Electrónica</label>
+                        <label class="opcion"><input type="checkbox" name="genero" value="indie"> Indie</label>
+                        <label class="opcion"><input type="checkbox" name="genero" value="otro"> Otro</label>
                     </div>
                 </fieldset>
 
@@ -208,9 +196,9 @@
                     <select id="cancion" name="cancion" required>
                         <option value="" disabled selected>Elige una canción</option>
                         <optgroup label="Enjambre">
+                            <option value="ultimo-tema">Último Tema</option>
                             <option value="visita">Visita</option>
                             <option value="dulce-soledad">Dulce soledad</option>
-                            <option value="vida-en-el-espejo">Vida en el espejo</option>
                         </optgroup>
                         <optgroup label="Zoé">
                             <option value="sone">Soñé</option>
@@ -218,15 +206,15 @@
                             <option value="luna">Luna</option>
                         </optgroup>
                         <optgroup label="Imagine Dragons">
-                            <option value="radioactive">Radioactive</option>
                             <option value="believer">Believer</option>
+                            <option value="radioactive">Radioactive</option>
                             <option value="demons">Demons</option>
                         </optgroup>
                     </select>
                 </div>
 
                 <div class="acciones">
-                    <button type="submit" class="boton">Enviar respuesta</button>
+                    <button type="submit" class="boton">Enviar</button>
                     <button type="reset" class="boton boton-secundario">Borrar</button>
                 </div>
             </form>
@@ -234,7 +222,7 @@
     </main>
 
     <footer class="pie">
-        <p class="pie-logo">Frecuencias</p>
+        <p class="pie-logo">Mi Música</p>
         <p><strong>Sergio Gustavo Acosta Esquivel</strong></p>
         <p>Número de control: 23480879</p>
         <p class="pie-nota">Programación Web · 2026</p>
